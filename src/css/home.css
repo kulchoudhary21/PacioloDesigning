@@ -1,0 +1,63 @@
+.intro-section 
+{
+
+    background: url("../logo/login-bg.63546fdaf8b5ac8ac6da.jpg") center/cover no-repeat;
+    padding-bottom: 0px;    
+        padding: 75px 95px;
+        min-height: 100vh;
+        display: grid;
+        flex-direction: column;
+        color: #fff
+}
+.page
+{
+    
+    max-width: 100%;
+    
+    margin-bottom: auto 
+}
+.brand-wrapper
+{
+    margin-left: 100px;
+    margin-right: 150px;
+}
+.col-sm-6
+{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 50%;
+    max-width : 50%;
+    min-width: 576px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.intro-content-wrapper {
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    font-family: Karla,sans-serif;       
+}
+.wel
+{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.intro-text
+{
+    font-size: 14px;
+    line-height: 1.29;
+    color: #fff;
+       
+}
+.intro-section-footer
+{
+    margin-left: 100px;
+    margin-right: 150px;
+    position: absolute;
+    bottom: 0;
+}
