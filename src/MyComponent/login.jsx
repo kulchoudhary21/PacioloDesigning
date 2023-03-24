@@ -1,4 +1,5 @@
 import "../css/login.css";
+import { Link } from "react-router-dom";
 function Login() {
   return (
     <div _ngcontent-fwx-c3="" className="col-lg-6  form-section">
@@ -6,16 +7,14 @@ function Login() {
         <div className="tx">
           <p _ngcontent-fwx-c3="" className="login-wrapper-signup-text tx">
             Hi, are you new here?{" "}
-            <a _ngcontent-fwx-c3="" className="ng-tns-c3-0" href="/signup">
-              <font style={{ verticalAlign: "inherit" }}>
-                <font style={{ verticalAlign: "inherit" }}>Sign in</font>
-              </font>
-            </a>
+            <Link _ngcontent-fwx-c3="" className="ng-tns-c3-0" to="/signin">
+              Sign in
+            </Link>
           </p>
         </div>
         <div _ngcontent-fwx-c3="" className="login-wrapper">
           <h2 _ngcontent-fwx-c3="" className="login-title">
-            <font style={{ verticalAlign: "inherit" }}>Access</font>
+            Access
           </h2>
           <form
             _ngcontent-fwx-c3=""
@@ -55,51 +54,39 @@ function Login() {
                   type="submit"
                   disabled=""
                 >
-                  <div className="msg">
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        Please log in
-                      </font>
-                    </font>
-                  </div>
+                  <div className="msg">Please log in</div>
                 </button>
               </div>
               <div className="lk">
-                <a
+                <Link
                   _ngcontent-fwx-c3=""
                   className="forgot-password-link"
-                  href="/forget-password"
+                  to="/forget-password"
                 >
                   <div className="passwd ">Reset your password</div>
-                </a>
+                </Link>
               </div>
             </div>
           </form>
           <div _ngcontent-fwx-c3="" className="d justify-content-between tc">
             By accessing or registering you declare to accept the{" "}
-            <a
+            <Link
               _ngcontent-fwx-c3=""
               className="ng-tns-c3-0"
-              href="http://www.paciolo.com/terms/"
+              to="http://www.paciolo.com/terms/"
               target="_blank"
             >
               terms and conditions
-            </a>
-            <font style={{ verticalAlign: "inherit" }}>
-              <font style={{ verticalAlign: "inherit" }}> and the </font>
-            </font>
-            <a
+            </Link>
+            and the
+            <Link
               _ngcontent-fwx-c3=""
               className="ng-tns-c3-0"
-              href="http://www.paciolo.com/privacy/"
+              to="http://www.paciolo.com/privacy/"
               target="_blank"
             >
-              <font style={{ verticalAlign: "inherit" }}>
-                <font style={{ verticalAlign: "inherit" }}>
-                  privacy policy.
-                </font>
-              </font>
-            </a>
+              privacy policy.
+            </Link>
           </div>
         </div>
       </div>
