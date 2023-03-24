@@ -1,0 +1,132 @@
+.form-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.main_page {
+    align-items: center;
+    justify-content: center;
+    font-family: Karla, sans-serif;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+
+
+}
+.tx {
+    font-size: 18px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 90px;
+
+}
+
+::placeholder {
+    color: grey !important;
+    opacity: 1 !important;
+    font-size: 12px !important;
+}
+
+.login-title {
+    font-size: 29px;
+    font-weight: 10;
+    color: #0d2366;
+    opacity: 0.8;
+    
+    margin-bottom: 18px;
+    font-weight: lighter;
+    /* text-decoration: #0056b3; */
+}
+
+.login-wrapper[_ngcontent-fwx-c3] .form-control[_ngcontent-fwx-c3] {
+    
+    min-height: 55px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: #f4f4f4;
+    padding: 19px 25px 18px;
+    margin-bottom: 18px;
+}
+.login-wrapper
+{
+    padding-top:90px ;
+    
+
+}
+.form-control[_ngcontent-fwx-c3] {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;  
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-section[_ngcontent-wqs-c3] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p.login-wrapper-signup-text {
+
+    margin: 0px 0px 16px !important;
+    padding: 50px 0px 0px !important;
+}
+
+.login-btn {
+    margin: 8px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.but {
+
+    background-color: #73b8d6;
+    letter-spacing: normal;
+    border-radius: 3px;
+}
+
+.msg {
+    color: white;
+    font-weight: 900;
+    font-family: Roboto, sans-serif;
+    border: none none none;
+    border-radius: 50px;
+}
+
+.passwd {
+    background-color: #fff;
+    font-family: Karla, sans-serif;
+    font-size: 14px;
+}
+
+.lk a {
+    color: grey !important;
+    text-decoration: none;
+}
+
+.lk a:hover {
+    text-decoration: underline;
+    color: #0056b3 !important;
+    transition: all .2s ease-in-out !important;
+
+}
+
+.tc {
+    font-size: 14px;
+}

@@ -1,15 +1,15 @@
-// style={{backgroundImage:`url(${bg})`}}
-import logo from './logo.svg';
 import './App.css';
 import Home from './MyComponent/home'
-import bg from './Images/login-bg.jpg'
+import Login from './MyComponent/login'
+import SignIn from './MyComponent/signin';
 function App() {
   return (
-    <div className='row'>
-  
-      <Home/>
-    <div className='col'>
+    <div className='container-fluid'>
 
+    <div className='row '>
+      <Home />
+      <Login />
+            
     </div>
     </div>
   );

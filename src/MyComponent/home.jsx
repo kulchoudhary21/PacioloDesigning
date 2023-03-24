@@ -3,7 +3,7 @@ import logo from "../Images/paciolo.png";
 import bg from "../Images/login-bg.jpg";
 function Home() {
   return (
-    <div _ngcontent-vnh-c3="" className="col-sm-6 intro-section">
+    <div _ngcontent-vnh-c3="" className=" col-lg-6 intro-section">
       <div className="page">
         <div _ngcontent-vnh-c3="" className="brand-wrapper">
           <img _ngcontent-vnh-c3="" className="logo" alt="" src={logo} />
