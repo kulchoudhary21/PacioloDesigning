@@ -4,14 +4,14 @@ function Login() {
   return (
     <div _ngcontent-fwx-c3="" className="col-lg-6  form-section">
       <div className="main_page">
-        <div className="tx">
+        <d  iv className="tx">
           <p _ngcontent-fwx-c3="" className="login-wrapper-signup-text tx">
             Hi, are you new here?{" "}
             <Link _ngcontent-fwx-c3="" className="ng-tns-c3-0" to="/signin">
               Sign in
             </Link>
           </p>
-        </div>
+        </d>
         <div _ngcontent-fwx-c3="" className="login-wrapper">
           <h2 _ngcontent-fwx-c3="" className="login-title">
             Access
